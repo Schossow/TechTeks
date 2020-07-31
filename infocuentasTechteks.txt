@@ -1,7 +1,18 @@
 godaddy user
 user -> dominiotechteks@gmail.com
+correos
+info@techteks.net
 pass -> A&a13071512
 Customer number
 291517133
 
 Codigo Color: #161d27
+Color en RGB
+R 22
+G 29
+B 39
+
+Color en HSL
+H 215
+S 28%
+L 12%
