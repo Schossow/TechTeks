@@ -8210,7 +8210,7 @@ h1, h2, h3, h4, h5,
         padding-right: 0;
         padding-top: .5em;
         padding-bottom: .5em;
-        color: #fff; }
+        color: rgba(255, 255, 255, 0.7); }
         .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
           color: #fff; } }
   .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
