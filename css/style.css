@@ -8902,10 +8902,6 @@ textarea.form-control {
   cursor: pointer;
 }
 
-#btn-cerrar-popup:hover{
-  cursor: pointer;
-}
-
 .bg-primary {
   background: #6927ff !important; }
 
@@ -10051,12 +10047,5 @@ textarea.form-control {
 
   width: 50%;
   height: auto;
-
-}
-
-.info-trabajadores{
-
-  width: 50%;
-  float: left;
 
 }
