@@ -8898,6 +8898,14 @@ textarea.form-control {
   opacity: 0;
   visibility: hidden; }
 
+.hover-pointer:hover{
+  cursor: pointer;
+}
+
+#btn-cerrar-popup:hover{
+  cursor: pointer;
+}
+
 .bg-primary {
   background: #6927ff !important; }
 
