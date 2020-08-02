@@ -8244,6 +8244,7 @@ h1, h2, h3, h4, h5,
     padding-right: 20px;
     margin-top: 6.5px;
     background: #fff;
+    text-align: center;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -8952,7 +8953,7 @@ textarea.form-control {
     text-transform: uppercase;
     letter-spacing: .1em; }
   .ftco-footer .ftco-footer-widget.bg-primary {
-    background: #5423c6 !important; }
+    background: #161d27 !important; }
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
     color: #fff;
@@ -9228,12 +9229,12 @@ textarea.form-control {
   .ftco-section .nav-pills .nav-link {
     border-radius: 0;
     margin-bottom: 0;
-    color: #6927ff;
+    color: #161d27;
     font-size: 18px;
     font-weight: 600;
     position: relative;
     display: inline-block;
-    border: 1px solid #d3c0ff;
+    border: 1px solid #161d27;
     margin-left: 5px;
     margin-right: 5px;
     -webkit-border-radius: 5px;
@@ -9247,7 +9248,7 @@ textarea.form-control {
       -webkit-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;
       transition: all 0.3s ease;
-      background: #38d39f;
+      background: #161d27;
       border: 1px solid transparent; }
       .ftco-section .nav-pills .nav-link.active:after, .ftco-section .nav-pills .nav-link:hover:after {
         opacity: 1; }
@@ -9580,12 +9581,11 @@ textarea.form-control {
       color: #161d27; }
       .block-7 .pricing-text li strong {
         color: #161d27; }
-  .block-7 .btn-primary {
-    border: none; }
+/*  .block-7 .btn-primary {
+    border: none; }*/
     .block-7 .btn-primary:hover {
-      border: none;
-      color: #fff;
-      background: #6927ff !important; }
+      color: #161d27;
+      background: #fff !important; }
 
 .block-8 .accordion-item .heading {
   font-size: 16px;
