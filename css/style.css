@@ -9218,6 +9218,21 @@ textarea.form-control {
     height: 400px;
     margin-bottom: 30px; } }
 
+@media (max-height: 400px){
+  #ftco-navbar{
+    opacity: 50%;
+  }
+  #ftco-navbar:hover{
+    opacity: 100%;
+  }
+}
+
+#ftco-navbar::-webkit-scrollbar {
+    width: 100px;     /* Tamaño del scroll en vertical */
+    opacity: 50px;
+    display: none;  /* Ocultar scroll */
+}
+
 .ftco-section {
   position: relative;
   width: 100%;
