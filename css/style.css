@@ -4,6 +4,10 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ 
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -323,6 +327,7 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 1rem; }
+
 
 .lead {
   font-size: 1.25rem;
@@ -8191,7 +8196,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 13px;
+    font-size: 15px;
     padding-top: .9rem;
     padding-bottom: .9rem;
     padding-left: 10px;
@@ -8200,7 +8205,6 @@ h1, h2, h3, h4, h5,
     color: rgba(255,255,255,0.8);
     font-weight: 500;
     width: 145px;
-    text-transform: uppercase;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {  /* Hover de la barra de navegación */
       color: #fff; }
@@ -10063,4 +10067,22 @@ textarea.form-control {
 
   float: left;
 
+}
+/*Estilos para iconos del index*/
+ion-icon {
+  font-size: 40px;
+  color: white;
+  --ionicon-stroke-width: 16px; 
+} 
+
+.hover-pointer:hover ion-icon{
+  color: #161d27; 
+}
+.services:hover ion-icon{
+  color: #161d27; 
+}
+
+/*Hover para etiquetas a de los overlay del index*/
+.hover-tu:hover{
+  text-decoration: underline;
 }
