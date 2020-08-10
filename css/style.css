@@ -10070,11 +10070,15 @@ textarea.form-control {
 }
 
 .home-bg-style{
-  position: absolute; 
   background-image: url(/images/home-bg.png);
   
 }
-
+.white-text{
+  color: white;
+}
+.brand-color-text{
+  color: #161d27;
+}
 /*Estilos para iconos del index*/
 ion-icon {
   font-size: 40px;
@@ -10092,4 +10096,11 @@ ion-icon {
 /*Hover para etiquetas a de los overlay del index*/
 .hover-tu:hover{
   text-decoration: underline;
+}
+
+@media (max-width: 769px){
+  .pad-from-769{
+    padding-top: 50px;
+  }
+
 }
