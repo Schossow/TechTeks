@@ -10068,6 +10068,13 @@ textarea.form-control {
   float: left;
 
 }
+
+.home-bg-style{
+  position: absolute; 
+  background-image: url(/images/home-bg.png);
+  
+}
+
 /*Estilos para iconos del index*/
 ion-icon {
   font-size: 40px;
