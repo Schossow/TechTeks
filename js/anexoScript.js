@@ -33,3 +33,11 @@ document.getElementById("btnAbrirPopup4").onclick=function(){
 document.getElementById("btn-cerrar-popup4").onclick=function(){
 	document.getElementById("overlay4").style.visibility="hidden";
 }
+
+/*Scripts de la página de servios*/
+
+document.getElementById("btn-lp").onclick=function(){
+
+
+
+}
