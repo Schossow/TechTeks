@@ -7,7 +7,7 @@
 	$mensaje= $_Post["mensaje"];
 
 	$contenido= "Nombre: " . $nombre . "\nEmail: " . $email . "\nAsunto: " . $asunto . "\nMensaje: " . $mensaje;
-	mail($destino, $asunto, $contenido);
+	$verification = mail($destino, $asunto, $contenido);
 	header("Location:index.html");
 
  ?>
