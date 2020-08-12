@@ -10149,36 +10149,6 @@ ion-icon {
   box-shadow: 0px 20px 26px -9px rgba(0,0,0,0.75);
   }
 
-.estilo-servicios{
-
-  background-color: #161d27;
-  border-radius: 10px;
-  margin-bottom: 80px;
-
-}
-
-.estilo-servicios h3{
-
-  color: #fff;
-  text-align: center;
-
-}
-
-.td-lp{
-
-  width: 50%;
-  height: auto;
-  color: rgba(0,0,0,0.8);
-  font-size: 18px;
-  text-align: justify;
-
-}
-
-.th-lp{
-
-  color: #000;
-  font-size: 25px;
-  font-weight: normal;
+/*Estilos de la hoja de servicios*/
 
 
-}
