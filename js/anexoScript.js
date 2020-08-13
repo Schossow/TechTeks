@@ -36,8 +36,3 @@ document.getElementById("btn-cerrar-popup4").onclick=function(){
 
 /*Scripts de la página de servios*/
 
-document.getElementById("btn-lp").onclick=function(){
-
-
-
-}
