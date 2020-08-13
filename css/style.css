@@ -9199,9 +9199,8 @@ textarea.form-control {
   display: block;
   position: relative; }
   .testimony-wrap .user-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
     position: relative;
     margin: 0 auto; }
     .testimony-wrap .user-img .quote {
@@ -10359,4 +10358,56 @@ ion-icon {
   .grid .item:nth-child(13),
   .grid .item:nth-child(14) { background-image: linear-gradient(45deg, #feeeab 0%, #fb7eb3 60%); }
   */
->>>>>>> d3ffa7e403c72312e5280c49863fa13552694288
+
+/*Resposive navbar*/
+
+@media(max-width: 330px){
+
+  .img-responsive{
+
+    height: 45px;
+    float: left;
+
+  }
+  
+}
+
+@media(max-width: 270px){
+
+  .img-responsive{
+
+    height: 30px;
+    float: left;
+
+  }
+  
+}
+
+@media(max-width: 400px){
+
+  .menu-responsive{
+
+    visibility: hidden;
+
+  }
+  
+  .navbar-toggler{
+
+    width: 30px; 
+    position: relative;
+    top:5px;
+
+  }
+
+  .oi{
+
+  width: 100%;
+  float: right;
+
+  }
+
+}
+
+/*--------Slider servicios-------*/
+
+
