@@ -9199,8 +9199,9 @@ textarea.form-control {
   display: block;
   position: relative; }
   .testimony-wrap .user-img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     position: relative;
     margin: 0 auto; }
     .testimony-wrap .user-img .quote {
@@ -10413,13 +10414,19 @@ ion-icon {
 
 #submenu-servicios{
 
-  background-color: rgba(22,29,39,0.5);"
+  background-color: rgb(22,29,39);"
 
 }
 
 #submenu-servicios a{
 
-  color: #fff;
-  padding-left: 5px;
+  color: rgba(255,255,255,0.5);
+  padding-left: 8px;
+
+}
+
+#submenu-servicios a:hover{
+
+  color:#fff;
 
 }

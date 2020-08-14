@@ -46,10 +46,10 @@
 		$('.home-slider').owlCarousel({
 	    loop:true,
 	    autoplay: true,
-	    margin:0,
-	    animateOut: 'fadeOut(3000)',
-	    animateIn: 'fadeIn(3000)',
-	    nav:true,
+	    margin:20,
+	    animateOut: 'fadeOut',
+	    animateIn: 'fadeIn',
+	    nav:false,
 	    autoplayHoverPause: true,
 	    items: 1,
 	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
@@ -58,7 +58,7 @@
 	        items:1,
 	        nav:false
 	      },
-	      700:{
+	      500:{
 	        items:2,
 	        nav:false
 	      },
