@@ -10409,16 +10409,17 @@ ion-icon {
 
 }
 
-/*--------Slider servicios-------*/
+/*-------sub menu en el mavbar-------*/
 
-.service-visible{
+#submenu-servicios{
 
-  visibility: visible;
+  background-color: rgba(22,29,39,0.5);"
 
 }
 
-.service-remove{
+#submenu-servicios a{
 
-  visibility: hidden;
+  color: #fff;
+  padding-left: 5px;
 
 }
