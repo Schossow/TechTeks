@@ -2564,7 +2564,11 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem;
+  transition: .6;
+  -webkit-transition: .6s;
+  -moz-transition: .6s;
+}
 
 .dropdown-menu-left {
   right: auto;
