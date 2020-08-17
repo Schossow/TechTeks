@@ -2,12 +2,13 @@
 
 	$destino= "info@techteks.net";
 	$nombre= $_Post["nombre"];
-	$email= $_Post["email"];
+	$correo= $_Post["correo"];
 	$asunto= $_Post["asunto"];
 	$mensaje= $_Post["mensaje"];
 
-	$contenido= "Nombre: " . $nombre . "\nEmail: " . $email . "\nAsunto: " . $asunto . "\nMensaje: " . $mensaje;
+	$contenido= "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nAsunto: " . $asunto . "\nMensaje: " . $mensaje;
+	
 	$verification = mail($destino, $asunto, $contenido);
 	header("Location:index.html");
 
- ?>
+?>
