@@ -8211,7 +8211,8 @@ h1, h2, h3, h4, h5,
     color: rgba(255,255,255,0.8);
     font-weight: 500;
     width: 145px;
-    opacity: 1 !important; }
+    opacity: 1 !important;
+    text-align: center; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {  /* Hover de la barra de navegación */
       color: #fff; }
     @media (max-width: 991.98px) {
