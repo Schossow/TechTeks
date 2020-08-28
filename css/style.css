@@ -13486,8 +13486,12 @@ ion-icon {
   margin-top: 90px;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 770px) {
   .mg-top-variable{
     margin-top: -50px;
+  }
+
+  .mg-top-variable-contact{
+    margin-top: 100px;
   }
 }
