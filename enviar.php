@@ -1,10 +1,10 @@
 <?php 
 
 	$destino= "info@techteks.net";
-	$nombre= $_Post["nombre"];
-	$correo= $_Post["correo"];
-	$asunto= $_Post["asunto"];
-	$mensaje= $_Post["mensaje"];
+	$nombre= $_POST["nombre"];
+	$correo= $_POST["correo"];
+	$asunto= $_POST["asunto"];
+	$mensaje= $_POST["mensaje"];
 
 	$contenido= "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nAsunto: " . $asunto . "\nMensaje: " . $mensaje;
 	

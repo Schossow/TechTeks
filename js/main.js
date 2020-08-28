@@ -49,22 +49,22 @@
 	    margin:20,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
-	    nav:false,
+	    nav:true,
 	    autoplayHoverPause: true,
 	    items: 1,
 	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
 	    responsive:{
 	      0:{
 	        items:1,
-	        nav:false
+	        nav:true
 	      },
 	      500:{
 	        items:2,
-	        nav:false
+	        nav:true
 	      },
 	      1000:{
 	        items:3,
-	        nav:false
+	        nav:true
 	      }
 	    }
 		});
@@ -75,7 +75,7 @@
 			//margin: 30,
 			//stagePadding: 0,
 			nav: false,//Flechas para mover el slider
-			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+			navText: ['<span class="ion-ios-arrow-back">','<span class="ion-ios-arrow-forward">'],
 			responsive:{
 				0:{
 					items: 1
