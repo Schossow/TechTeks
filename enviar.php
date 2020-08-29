@@ -10,8 +10,8 @@
 	   $ehead = "Content-Type: text/html; charset=UTF-8"; //Caracteres especiales
        $emess = "Nombre: ".$username."\n"; //Nombre
 	   $emess.= "Email: ".$useremail."\n"; //Email
-	   $emess.= "Servicio de interés: ".$serviceselected; //Servicio de interes
-	   $emess.= "Comentarios adicionales: ".$usermessage; //Mensaje complementario
+	   $emess.= "Servicio de interés: ".$serviceselected."\n"; //Servicio de interes
+	   $emess.= "Comentarios adicionales: ".$usermessage."\n"; //Mensaje complementario
        $subj = "Consulta de Servicios TechTeks"; //Asunto
        $mailsend = @mail("$myemail","$subj","$emess","$ehead");
       if ($mailsend){
