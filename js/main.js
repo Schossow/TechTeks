@@ -277,6 +277,6 @@
 
 })(jQuery);
 
-function website_version(){
-	document.write('V 1.0.0.28082020');
-}
+
+// EVENTOS Y FUNCIONES PARA ENLACES-PERSONALIZADOS.PHP
+

@@ -246,10 +246,6 @@ label {
   margin-bottom: 0.5rem;
 }
 
-button {
-  border-radius: 0;
-}
-
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
@@ -13494,4 +13490,17 @@ ion-icon {
   .mg-top-variable-contact{
     margin-top: 100px;
   }
+}
+
+.form-bt{
+  background-color:rgb(233, 233, 233) !important;
+  border-radius: 5px !important;
+  border-color: #bebebe !important;
+  border: 0px solid !important;
+  line-height: 35px;
+  width: auto;
+}
+
+.form-bt:hover{
+  background-color:rgb(216, 216, 216) !important;
 }
